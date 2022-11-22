@@ -1,8 +1,8 @@
 package com.mewada.rohit.assessment.producer;
 
 import com.mewada.rohit.assessment.constants.KafkaConstants;
-import com.mewada.rohit.assessment.model.KafkaReadyRecord;
 import lombok.extern.slf4j.Slf4j;
+import org.example.model.KafkaReadyRecord;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
